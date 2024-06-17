@@ -1,13 +1,117 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* <------------------------------------- Register Form -------------------------------------------------> */
+
+.registerContaner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerContaner .form form{
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    height: auto;
+}
+.registerContaner .form form .heading{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.registerContaner .form .inputFileds{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.registerContaner .form .inputFileds input{
+   width: 300px;
+   height: 35px;
+   outline: none;
+   padding: 10px;
+   margin: 15px 0px;
+   border-radius: 5px;
+   border: solid 1px;
+}
+.registerContaner .form .Btn{
+   width: 100%;
+}
+.registerContaner .form .Btn button{
+   width: 100%;
+   height: 35px;
+   margin-top: 20px;
+   color: white;
+   letter-spacing: 2px;
+   font-family: sans-serif;
+   cursor: pointer;
+   border-radius: 5px;
+   background-color: #4285f4;
+   border: none;
+}
+.registerContaner .form .registerSignin{
+    margin-top: 20px;
+}
+.registerContaner .form .registerSignin a{
+    margin-left: 5px;
+    color: blue;
+}
+
+/* <----------------------------------------- Login Form --------------------------------------------> */
+
+.loginContaner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginContaner .form form{
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: fit-content;
+    height: auto;
+}
+.loginContaner .form form .heading{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.loginContaner .form .inputFileds{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.loginContaner .form .inputFileds input{
+   width: 300px;
+   height: 35px;
+   outline: none;
+   padding: 10px;
+   margin: 15px 0px;
+   border-radius: 5px;
+   border: solid 1px;
+}
+.loginContaner .form .Btn{
+   width: 100%;
+}
+.loginContaner .form .Btn button{
+   width: 100%;
+   height: 35px;
+   margin-top: 20px;
+   color: white;
+   letter-spacing: 2px;
+   font-family: sans-serif;
+   cursor: pointer;
+   border-radius: 5px;
+   background-color: #4285f4;
+   border: none;
+}
+.loginContaner .form .loginSignin{
+    margin-top: 20px;
+}
+.loginContaner .form .loginSignin a{
+    margin-left: 5px;
+    color: blue;
 }
